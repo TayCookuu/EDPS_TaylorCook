@@ -1,12 +1,15 @@
+body {
+  background-color: #FDFACA;
+}
 h1 {
-  color: Lightpink;
+  color: #461B34;
   margin-left: 20px;
 }
 .p {
    font-family: Georgia, serif;
 }
 h2 {
-  color: red;
+  color: #CC192C;
 }
   
   
