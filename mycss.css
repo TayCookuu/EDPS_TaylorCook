@@ -12,4 +12,34 @@ h2 {
   color: #F50A2A;
 }
   
-  
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    html{
+    font-size:70%}
+}
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   html{
+    font-size:100%}
+} 
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    html{
+    font-size:100%}
+}
+    
+
+/* Extra large devices (large desktops, 1200px and up) Look at the variations to the H1 font wheen the device displays greater than 1200px, */
+@media (min-width: 1200px) {
+   html{
+    font-size:100%}
+    h1{color: var(--slytherin-green);
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
