@@ -6,7 +6,7 @@ h1 {
   margin-left: 20px;
 }
 .p {
-   font-family: Tahoma, serif;
+   font-family: Helvetica, serif;
 }
 h2 {
   color: #F50A2A;
@@ -48,6 +48,6 @@ a:hover {
 /* Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
    html{font-size:100%}
-        font-family:Tahoma, sans-serif;
+        font-family:Helvetica, sans-serif;
         font-weight: 100;
         text-transform: uppercase;
