@@ -35,6 +35,6 @@ h2 {
 /* Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
    html{font-size:100%}
-        font-family: "Square Peg", sans-serif;
+        font-family: "Tahoma", sans-serif;
         font-weight: 100;
         text-transform: uppercase;
