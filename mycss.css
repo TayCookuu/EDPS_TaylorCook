@@ -11,7 +11,15 @@ h1 {
 h2 {
   color: #F50A2A;
 }
-  
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
   /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     html{font-size:70%}
