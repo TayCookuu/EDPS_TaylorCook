@@ -4,24 +4,31 @@
     <head>
         <link rel="animationscss.css" href="css/animationstyles.css">
         <title>CSS Animations</title>
-    </head>
-    <body>
-        <p>These are examples of transitions. They activate when you hover with mouse.</p>
-        <div class="container">
-            <div class="box one">linear transition</div>
-            <div class="box two">ease-in transition</div>
-            <div class="box three">ease-out transition</div>
-             <div class="box four">ease-in-out transition</div>
-        </div>
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
 
-        <p>This is an example of transition.  It happens when you hover and there is a half-second delay once you hover</p>
-        <div class="parent">
-            <div class="child">Linear Transition Translate X and background color, 500 ms delay</div>
-        </div>
-<br>
-        <p>This is an example of animation that is on an infinite loop. It will stop once you hover over it.</p>
-        <div class="parentanimate">
-            <div class="childanimate">Animation @media left-to-right</div>
-        </div>
-    </body>
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<div></div>
+
+<p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
+
+</body>
 </html>
