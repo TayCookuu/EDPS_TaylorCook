@@ -1,5 +1,8 @@
 .flexbox-container{
-  display: flex; 
+  background-color: orange;
+  font-size: 20px;
+  display: flex;
+  
 }
 
 .flexbox-item{
