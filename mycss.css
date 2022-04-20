@@ -19,6 +19,11 @@ h2 {
   width: 50%;
 }
 
+a:hover {
+  color: #B81B4F;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
   /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
